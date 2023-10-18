@@ -28,7 +28,7 @@ I deployed this project with Vercel at --> https://greeneats-s2i.vercel.app/
 
 To run this app locally and start exploring delicious recipes, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/yourusername/greenEats.git`
+1. Clone this repository: `git clone https://github.com/diegoddie/greenEats_S2I_FullStack_React`
 2. Move to the project directory: `cd greenEats`
 3. Install dependencies: `npm install`
 4. Obtain an API key from Spoonacular by signing up on their website.
