@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import _ from 'lodash';
@@ -15,7 +15,7 @@ const RecipeSearch = () => {
     const BASE_URL = 'https://api.spoonacular.com';
 
     // Fetch and display recipes based on the search query.
-    const handleSearch = async () =>{
+    const handleSearch = useCallback(async () => {
         setIsLoading(true);
         setError(null);
 
@@ -35,11 +35,11 @@ const RecipeSearch = () => {
         }
 
         setIsLoading(false);
-    };
+    }, [query]);
 
     useEffect(() => {
         handleSearch();
-    }, [query]);
+    }, [handleSearch]);
 
     return (
         <div className="mt-12 md:mt-20 min-h-screen w-full">
