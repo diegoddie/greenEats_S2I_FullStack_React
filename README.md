@@ -2,6 +2,8 @@
 
 greenEats is your one-stop destination for all things delicious and vegetarian. With the power of Spoonacular APIs, this app allows you to explore a world of mouthwatering recipes, save your favorites, create custom meal plans, search for specific ingredients, and more. Say goodbye to bland meals and hello to a greener, tastier future!
 
+I deployed this project with Vercel at --> https://greeneats-s2i.vercel.app/
+
 ## 🍏 Features
 
 - **Recipe Exploration**: Dive into a vast ocean of vegetarian and non-vegetarian recipes. Your taste buds will thank you! 😋
